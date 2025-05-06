@@ -1,11 +1,11 @@
 import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
-  title: "lyc8503's Status Page",
+  title: "realwds-status",
   links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://github.com/realwds', label: 'GitHub' },
+    { link: 'https://realwds.com', label: 'Blog' },
+    { link: 'mailto:hi@realwds.com', label: 'Email Me', highlight: true },
   ],
 }
 
