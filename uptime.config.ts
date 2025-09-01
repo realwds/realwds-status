@@ -62,6 +62,16 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout:10000,
     },
+    {
+      id: 'realwds-photo',
+      name: 'realwds-photo',
+      method: 'GET',
+      target: 'https://photo.realwds.com',
+      tooltip: 'realwds-photo',
+      statusPageLink: 'https://photo.realwds.com',
+      expectedCodes: [200],
+      timeout:10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
