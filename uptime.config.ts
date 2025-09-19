@@ -72,6 +72,16 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout:10000,
     },
+    {
+      id: 'realwds-tv',
+      name: 'realwds-tv',
+      method: 'GET',
+      target: 'https://tv.realwds.com',
+      tooltip: 'realwds-tv',
+      statusPageLink: 'https://tv.realwds.com',
+      expectedCodes: [200],
+      timeout:10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
